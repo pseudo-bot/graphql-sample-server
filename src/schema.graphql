@@ -1,0 +1,19 @@
+type Query {
+  featuredPlaylists: [Playlist!]!
+  playlist(id: ID!): Playlist
+}
+
+type Playlist {
+  id: ID!
+  name: String!
+  description: String
+  tracks: [Track!]!
+}
+
+type Track {
+  id: ID!
+  name: String!
+  durationMs: Int!
+  explicit: Boolean!
+  uri: String!
+}
