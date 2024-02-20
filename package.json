@@ -1,13 +1,9 @@
 {
   "name": "musicmatch",
   "private": true,
-  "description": "The starter code for the Odyssey Intro to GraphQL with TypeScript course",
+  "description": "Server for musicmatch application",
   "version": "0.0.0",
   "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/apollographql-education/intro-typescript"
-  },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "engines": {
